@@ -1,0 +1,237 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap');
+
+@layer base {
+  :root {
+    /* ISP Theme - Professional Blue & Red */
+    --background: 0 0% 100%;
+    --foreground: 220 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 20% 15%;
+
+    /* Deep Navy Blue - Trust & Reliability */
+    --primary: 222 47% 20%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Lighter Blue for secondary elements */
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 20%;
+
+    /* Muted surfaces */
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 8% 46%;
+
+    /* Vibrant Red - Energy & CTAs */
+    --accent: 0 84% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 222 47% 20%;
+
+    --radius: 0.5rem;
+
+    /* ISP Custom Colors */
+    --isp-navy: 222 47% 20%;
+    --isp-navy-light: 220 30% 35%;
+    --isp-red: 0 84% 50%;
+    --isp-red-dark: 0 84% 42%;
+    --isp-blue: 210 100% 50%;
+    --isp-blue-light: 210 100% 60%;
+    --isp-gray: 220 14% 96%;
+    --isp-dark: 220 20% 10%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(222 47% 20% / 0.9) 0%, hsl(210 100% 30% / 0.8) 100%);
+    --gradient-cta: linear-gradient(135deg, hsl(0 84% 50%) 0%, hsl(0 84% 42%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(220 14% 98%) 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(220 20% 15% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(220 20% 15% / 0.1), 0 2px 4px -1px hsl(220 20% 15% / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(220 20% 15% / 0.1), 0 4px 6px -2px hsl(220 20% 15% / 0.05);
+    --shadow-xl: 0 20px 25px -5px hsl(220 20% 15% / 0.1), 0 10px 10px -5px hsl(220 20% 15% / 0.04);
+    --shadow-card: 0 4px 20px hsl(220 20% 15% / 0.08);
+    --shadow-hover: 0 12px 30px hsl(220 20% 15% / 0.15);
+
+    /* Sidebar defaults */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 220 20% 10%;
+    --foreground: 0 0% 98%;
+    --card: 220 20% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 220 20% 12%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 210 100% 60%;
+    --primary-foreground: 220 20% 10%;
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 220 20% 18%;
+    --muted-foreground: 220 8% 65%;
+    --accent: 0 84% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 20% 22%;
+    --input: 220 20% 22%;
+    --ring: 210 100% 60%;
+    --sidebar-background: 220 20% 10%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 210 100% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 20% 18%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 220 20% 22%;
+    --sidebar-ring: 210 100% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  /* Fixed Background / Parallax Effect */
+  .fixed-bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Hero Overlay */
+  .hero-overlay {
+    background: var(--gradient-hero);
+  }
+
+  /* CTA Gradient */
+  .cta-gradient {
+    background: var(--gradient-cta);
+  }
+
+  /* Card Hover Effect */
+  .card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-card);
+  }
+
+  .card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+  }
+
+  /* Image Gallery Hover */
+  .gallery-item {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .gallery-item img {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+
+  /* Fade In Animation */
+  .fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Stagger animations */
+  .stagger-1 { animation-delay: 0.1s; }
+  .stagger-2 { animation-delay: 0.2s; }
+  .stagger-3 { animation-delay: 0.3s; }
+  .stagger-4 { animation-delay: 0.4s; }
+  .stagger-5 { animation-delay: 0.5s; }
+  .stagger-6 { animation-delay: 0.6s; }
+
+  /* Price Tag Style */
+  .price-tag {
+    @apply inline-flex items-baseline gap-1;
+  }
+
+  .price-tag .currency {
+    @apply text-lg font-semibold;
+  }
+
+  .price-tag .amount {
+    @apply text-4xl md:text-5xl font-extrabold;
+  }
+
+  .price-tag .period {
+    @apply text-sm font-medium opacity-80;
+  }
+
+  /* Service Card */
+  .service-card {
+    @apply bg-card rounded-xl overflow-hidden card-hover;
+  }
+
+  /* Section Padding */
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  /* Container Max Width */
+  .container-isp {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  /* Text Gradient */
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--isp-navy)) 0%, hsl(var(--isp-blue)) 100%);
+  }
+
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
+  }
+}

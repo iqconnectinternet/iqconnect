@@ -1,0 +1,30 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FB923C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F97316;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="24" cy="24" r="22" fill="url(#logoGradient)" />
+  
+  <!-- Gift Box Base -->
+  <rect x="14" y="22" width="20" height="14" rx="2" fill="white" opacity="0.95"/>
+  
+  <!-- Gift Ribbon Vertical -->
+  <rect x="22" y="16" width="4" height="20" fill="#FB923C"/>
+  
+  <!-- Gift Ribbon Horizontal -->
+  <rect x="12" y="26" width="24" height="4" fill="#F97316"/>
+  
+  <!-- Bow -->
+  <ellipse cx="20" cy="18" rx="3" ry="2" fill="#FB923C"/>
+  <ellipse cx="28" cy="18" rx="3" ry="2" fill="#FB923C"/>
+  <circle cx="24" cy="17" r="2" fill="#F97316"/>
+  
+  <!-- WiFi Signal Waves -->
+  <path d="M24 28 C26 28, 28 30, 28 32" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M24 28 C22 28, 20 30, 20 32" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <circle cx="24" cy="33" r="1.5" fill="white"/>
+</svg>
