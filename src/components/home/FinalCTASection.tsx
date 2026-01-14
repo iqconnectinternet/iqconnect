@@ -29,17 +29,17 @@ export default function FinalCTASection() {
           <div className="flex flex-wrap gap-4 justify-center">
             <Button 
               variant="hero"
-              onClick={() => window.location.href = 'tel:18004438638'}
+              onClick={() => window.location.href = 'tel:+18334043389'}
             >
-              Call Now for Guidance
-              <ArrowRight className="w-5 h-5" />
+              <Phone className="w-5 h-5" />
+              Call Now: (833) 404-3389
             </Button>
             <Button 
               variant="hero-outline"
-              onClick={() => window.location.href = 'tel:18004438638'}
+              onClick={() => window.location.href = 'tel:+18334043389'}
             >
-              <Phone className="w-5 h-5" />
-              1-800-443-8638
+              Get Expert Guidance
+              <ArrowRight className="w-5 h-5" />
             </Button>
           </div>
         </AnimateOnScroll>

@@ -61,7 +61,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Call Us</h3>
-                      <a href="tel:18004438638" className="text-2xl font-bold text-accent hover:underline">1-800-443-8638</a>
+                      <a href="tel:+18334043389" className="text-2xl font-bold text-accent hover:underline">(833) 404-3389</a>
                       <p className="text-sm text-muted-foreground">Informational Assistance & General Inquiries</p>
                     </div>
                   </div>

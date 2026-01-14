@@ -56,7 +56,7 @@ export default function Header() {
                   className="flex items-center gap-2 text-white"
                 >
                   <Phone className="w-4 h-4" />
-                  <span className="font-bold text-sm">Call: 1-800-GIFT-NET</span>
+                  <span className="font-bold text-sm">Call: (833) 404-3389</span>
                 </motion.div>
                 <div className="hidden md:flex items-center gap-2 text-white">
                   <span className="text-sm font-semibold">🎉 Get Expert Assistance Today</span>
@@ -134,8 +134,10 @@ export default function Header() {
                 variant="cta"
                 size="lg"
                 className="font-bold shadow-lg shadow-accent/20 hover:shadow-accent/40 transition-shadow"
+                onClick={() => window.location.href = 'tel:+18334043389'}
               >
-                Get Assistance
+                <Phone className="w-4 h-4" />
+                Call Now
               </Button>
             </motion.div>
 
@@ -217,9 +219,13 @@ export default function Header() {
                     variant="cta"
                     size="lg"
                     className="w-full font-bold shadow-lg"
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      window.location.href = 'tel:+18334043389';
+                    }}
                   >
-                    Get Assistance
+                    <Phone className="w-4 h-4" />
+                    Call Now: (833) 404-3389
                   </Button>
                 </motion.div>
               </div>

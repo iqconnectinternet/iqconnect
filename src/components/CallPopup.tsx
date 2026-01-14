@@ -26,7 +26,7 @@ export default function CallPopup() {
   };
 
   const handleCall = () => {
-    window.location.href = 'tel:18004438638';
+    window.location.href = 'tel:+18334043389';
   };
 
   if (isDismissed) return null;
@@ -91,10 +91,10 @@ export default function CallPopup() {
                       Call Us Now
                     </p>
                     <a 
-                      href="tel:18004438638"
+                      href="tel:+18334043389"
                       className="block text-center text-3xl font-bold text-accent hover:text-accent/80 transition-colors"
                     >
-                      1-800-443-8638
+                      (833) 404-3389
                     </a>
                   </div>
 

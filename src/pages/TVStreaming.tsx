@@ -2,7 +2,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { Button } from '@/components/ui/button';
 import { AnimateOnScroll, StaggerContainer, StaggerItem } from '@/components/ui/AnimateOnScroll';
-import { CheckCircle, Tv, Play, Film, ArrowRight } from 'lucide-react';
+import { CheckCircle, Tv, Play, Film, ArrowRight, Phone } from 'lucide-react';
 import streamingImage from '@/assets/streaming-devices.jpg';
 import zipSearchBg from '@/assets/zip-search-bg.jpg';
 
@@ -43,16 +43,17 @@ export default function TVStreaming() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <Button 
                   variant="hero"
-                  onClick={() => window.location.href = 'tel:18004438638'}
+                  onClick={() => window.location.href = 'tel:+18334043389'}
                 >
-                  Get Help
+                  <Phone className="w-5 h-5" />
+                  Call Now: (833) 404-3389
                 </Button>
                 <Button 
                   variant="hero-outline"
-                  onClick={() => window.location.href = 'tel:18004438638'}
+                  onClick={() => window.location.href = 'tel:+18334043389'}
                 >
                   <Play className="w-5 h-5" />
-                  Learn More
+                  Get Expert Help
                 </Button>
               </div>
             </AnimateOnScroll>
@@ -87,10 +88,10 @@ export default function TVStreaming() {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => window.location.href = 'tel:18004438638'}
+                onClick={() => window.location.href = 'tel:+18334043389'}
               >
-                See All Channels
-                <ArrowRight className="w-5 h-5" />
+                <Phone className="w-5 h-5" />
+                Call Now: (833) 404-3389
               </Button>
             </div>
           </div>
@@ -131,9 +132,10 @@ export default function TVStreaming() {
                 <Button 
                   variant="cta" 
                   size="lg"
-                  onClick={() => window.location.href = 'tel:18004438638'}
+                  onClick={() => window.location.href = 'tel:+18334043389'}
                 >
-                  Get Started Today
+                  <Phone className="w-5 h-5" />
+                  Call Now: (833) 404-3389
                 </Button>
               </AnimateOnScroll>
               <AnimateOnScroll variant="slideRight">

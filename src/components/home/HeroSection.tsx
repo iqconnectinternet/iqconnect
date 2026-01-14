@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
-import { Play, CheckCircle, Sparkles, Zap, Shield } from 'lucide-react';
+import { Play, CheckCircle, Sparkles, Zap, Shield, Phone } from 'lucide-react';
 import heroImage from '@/assets/hero-family-tv.jpg';
 
 export default function HeroSection() {
@@ -162,19 +162,20 @@ export default function HeroSection() {
                   <Button 
                     variant="hero" 
                     className="w-full sm:w-auto px-8 py-6 text-base font-bold shadow-lg shadow-accent/30"
-                    onClick={() => window.location.href = 'tel:18004438638'}
+                    onClick={() => window.location.href = 'tel:+18334043389'}
                   >
-                    Talk to a Third-Party Internet Advisor
+                    <Phone className="w-5 h-5" />
+                    Call Now: (833) 404-3389
                   </Button>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Button 
                     variant="hero-outline" 
                     className="w-full sm:w-auto px-8 py-6 text-base font-bold"
-                    onClick={() => window.location.href = 'tel:18004438638'}
+                    onClick={() => window.location.href = 'tel:+18334043389'}
                   >
                     <Play className="w-5 h-5" />
-                    Call for Independent Service Guidance
+                    Talk to a Third-Party Internet Advisor
                   </Button>
                 </motion.div>
               </motion.div>
@@ -280,9 +281,10 @@ export default function HeroSection() {
                       <Button 
                         variant="hero" 
                         className="w-full py-4 font-bold shadow-lg shadow-accent/30"
-                        onClick={() => window.location.href = 'tel:18004438638'}
+                        onClick={() => window.location.href = 'tel:+18334043389'}
                       >
-                        Request Guidance Now
+                        <Phone className="w-4 h-4" />
+                        Call Now: (833) 404-3389
                       </Button>
                     </motion.div>
                     

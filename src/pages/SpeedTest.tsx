@@ -4,7 +4,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { Button } from '@/components/ui/button';
 import { AnimateOnScroll } from '@/components/ui/AnimateOnScroll';
-import { Gauge, Download, Upload, Wifi, Activity, RefreshCw, CheckCircle, ArrowRight } from 'lucide-react';
+import { Gauge, Download, Upload, Wifi, Activity, RefreshCw, CheckCircle, ArrowRight, Phone } from 'lucide-react';
 import speedTestBg from '@/assets/speed-test-bg.jpg';
 
 type TestPhase = 'idle' | 'ping' | 'download' | 'upload' | 'complete';
@@ -264,9 +264,13 @@ export default function SpeedTest() {
                             : 'Upgrade to our faster plans for buffer-free streaming and gaming.'}
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center">
-                          <Button variant="cta" size="lg">
-                            View Faster Plans
-                            <ArrowRight className="w-5 h-5" />
+                          <Button 
+                            variant="cta" 
+                            size="lg"
+                            onClick={() => window.location.href = 'tel:+18334043389'}
+                          >
+                            <Phone className="w-5 h-5" />
+                            Call Now: (833) 404-3389
                           </Button>
                           <Button
                             variant="outline"
@@ -354,9 +358,13 @@ export default function SpeedTest() {
                 Upgrade to our high-speed plans and experience lightning-fast downloads, 
                 buffer-free streaming, and lag-free gaming.
               </p>
-              <Button variant="cta" size="lg">
-                View All Plans
-                <ArrowRight className="w-5 h-5" />
+              <Button 
+                variant="cta" 
+                size="lg"
+                onClick={() => window.location.href = 'tel:+18334043389'}
+              >
+                <Phone className="w-5 h-5" />
+                Call Now: (833) 404-3389
               </Button>
             </AnimateOnScroll>
           </div>

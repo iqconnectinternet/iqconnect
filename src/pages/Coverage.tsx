@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { AnimateOnScroll, StaggerContainer, StaggerItem } from '@/components/ui/AnimateOnScroll';
 import { motion, AnimatePresence } from 'framer-motion';
-import { MapPin, CheckCircle, Search, ArrowRight } from 'lucide-react';
+import { MapPin, CheckCircle, Search, ArrowRight, Phone } from 'lucide-react';
 import coverageMapBg from '@/assets/coverage-map-bg.jpg';
 
 export default function Coverage() {
@@ -111,12 +111,22 @@ export default function Coverage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4">
-                    <Button variant="cta" size="lg" className="flex-1">
-                      View Available Plans
-                      <ArrowRight className="w-5 h-5" />
+                    <Button 
+                      variant="cta" 
+                      size="lg" 
+                      className="flex-1"
+                      onClick={() => window.location.href = 'tel:+18334043389'}
+                    >
+                      <Phone className="w-5 h-5" />
+                      Call Now: (833) 404-3389
                     </Button>
-                    <Button variant="outline" size="lg" className="flex-1">
-                      Call 1-800-555-FAST
+                    <Button 
+                      variant="outline" 
+                      size="lg" 
+                      className="flex-1"
+                      onClick={() => window.location.href = 'tel:+18334043389'}
+                    >
+                      Get Expert Guidance
                     </Button>
                   </div>
                 </motion.div>

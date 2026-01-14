@@ -61,7 +61,7 @@ const faqCategories = [
     faqs: [
       {
         question: 'How do I get started with Digi Mercury?',
-        answer: 'Simply call us at 1-800-443-8638 or use our contact form. We\'ll discuss your service needs and help you understand available options. There\'s no obligation.',
+        answer: 'Simply call us at (833) 404-3389 or use our contact form. We\'ll discuss your service needs and help you understand available options. There\'s no obligation.',
       },
       {
         question: 'How much does your assistance cost?',

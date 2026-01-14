@@ -2,7 +2,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { Button } from '@/components/ui/button';
 import { AnimateOnScroll, StaggerContainer, StaggerItem } from '@/components/ui/AnimateOnScroll';
-import { CheckCircle, Wifi, Zap, Shield, ArrowRight, HelpCircle, BookOpen } from 'lucide-react';
+import { CheckCircle, Wifi, Zap, Shield, ArrowRight, HelpCircle, BookOpen, Phone } from 'lucide-react';
 import routerImage from '@/assets/router-modem.jpg';
 import coverageMapBg from '@/assets/coverage-map-bg.jpg';
 
@@ -56,9 +56,10 @@ export default function Internet() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <Button 
                   variant="hero"
-                  onClick={() => window.location.href = 'tel:18004438638'}
+                  onClick={() => window.location.href = 'tel:+18334043389'}
                 >
-                  Get Informational Help
+                  <Phone className="w-5 h-5" />
+                  Call Now: (833) 404-3389
                 </Button>
               </div>
             </AnimateOnScroll>
@@ -158,10 +159,10 @@ export default function Internet() {
                   variant="cta" 
                   size="lg" 
                   className="mt-8"
-                  onClick={() => window.location.href = 'tel:18004438638'}
+                  onClick={() => window.location.href = 'tel:+18334043389'}
                 >
-                  Learn More About Options
-                  <ArrowRight className="w-5 h-5" />
+                  <Phone className="w-5 h-5" />
+                  Call Now: (833) 404-3389
                 </Button>
                 <p className="mt-4 text-sm text-muted-foreground">
                   Independent guidance • No sales • Informational support only

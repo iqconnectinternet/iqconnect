@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { AnimateOnScroll } from '@/components/ui/AnimateOnScroll';
-import { MapPin, Search } from 'lucide-react';
+import { MapPin, Search, Phone } from 'lucide-react';
 import zipSearchBg from '@/assets/zip-search-bg.jpg';
 
 export default function ZipSearchSection() {
@@ -56,10 +56,10 @@ export default function ZipSearchSection() {
                 variant="cta" 
                 size="xl" 
                 className="shadow-lg"
-                onClick={() => window.location.href = 'tel:18004438638'}
+                onClick={() => window.location.href = 'tel:+18334043389'}
               >
-                <Search className="w-5 h-5" />
-                Get Guidance
+                <Phone className="w-5 h-5" />
+                Call Now: (833) 404-3389
               </Button>
             </form>
 

@@ -4,7 +4,7 @@ import { Phone, X } from 'lucide-react';
 
 export default function StickyCallButton() {
   const [isExpanded, setIsExpanded] = useState(false);
-  const phoneNumber = '1-800-GIFT-NET';
+  const phoneNumber = '(833) 404-3389';
   const phoneNumberDial = '18004438638';
 
   const handleCall = () => {

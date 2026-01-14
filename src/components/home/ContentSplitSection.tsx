@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { CheckCircle, ArrowRight } from 'lucide-react';
+import { CheckCircle, ArrowRight, Phone } from 'lucide-react';
 import { AnimateOnScroll } from '@/components/ui/AnimateOnScroll';
 import smartHomeImage from '@/assets/smart-home.jpg';
 
@@ -46,12 +46,20 @@ export default function ContentSplitSection() {
 
               {/* CTAs */}
               <div className="flex flex-wrap gap-4">
-                <Button variant="cta" size="lg">
-                  Get Guidance
-                  <ArrowRight className="w-5 h-5" />
+                <Button 
+                  variant="cta" 
+                  size="lg"
+                  onClick={() => window.location.href = 'tel:+18334043389'}
+                >
+                  <Phone className="w-5 h-5" />
+                  Call Now: (833) 404-3389
                 </Button>
-                <Button variant="outline" size="lg">
-                  Call 1-800-443-8638
+                <Button 
+                  variant="outline" 
+                  size="lg"
+                  onClick={() => window.location.href = 'tel:+18334043389'}
+                >
+                  Get Expert Guidance
                 </Button>
               </div>
             </AnimateOnScroll>

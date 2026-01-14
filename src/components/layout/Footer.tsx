@@ -44,7 +44,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-accent" />
-                <a href="tel:18004438638" className="hover:text-accent transition-colors">1-800-443-8638</a>
+                <a href="tel:+18334043389" className="hover:text-accent transition-colors">(833) 404-3389</a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-accent" />

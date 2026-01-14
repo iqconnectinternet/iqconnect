@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { Phone } from 'lucide-react';
 import { AnimateOnScroll } from '@/components/ui/AnimateOnScroll';
 import speedImage from '@/assets/speed-visualization.jpg';
 
@@ -25,11 +26,18 @@ export default function FeatureBanner() {
         </AnimateOnScroll>
         <AnimateOnScroll variant="fadeUp" delay={0.2}>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button variant="hero">
-              Get Guidance
+            <Button 
+              variant="hero"
+              onClick={() => window.location.href = 'tel:+18334043389'}
+            >
+              <Phone className="w-5 h-5" />
+              Call Now: (833) 404-3389
             </Button>
-            <Button variant="hero-outline">
-              Call Us Today
+            <Button 
+              variant="hero-outline"
+              onClick={() => window.location.href = 'tel:+18334043389'}
+            >
+              Get Guidance Today
             </Button>
           </div>
         </AnimateOnScroll>
