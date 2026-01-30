@@ -8,15 +8,15 @@ const faqCategories = [
     name: 'About Our Service',
     faqs: [
       {
-        question: 'What is Digi Mercury?',
-        answer: 'Digi Mercury is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider. We provide informational support to help you understand your options.',
+        question: 'What is IQ Connects?',
+        answer: 'IQ Connects is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider. We provide informational support to help you understand your options.',
       },
       {
         question: 'Do you provide internet or cable services?',
         answer: 'No. We do not provide internet, TV, or cable services directly. We are independent guidance providers. When you make a decision to get services, you will contact service providers directly.',
       },
       {
-        question: 'How is Digi Mercury different from other companies?',
+        question: 'How is IQ Connects different from other companies?',
         answer: 'We are completely independent with no affiliation to any service provider. We provide informational guidance only. We do not sell subscriptions or represent any ISP or cable company.',
       },
     ],
@@ -60,8 +60,8 @@ const faqCategories = [
     name: 'Getting Started',
     faqs: [
       {
-        question: 'How do I get started with Digi Mercury?',
-        answer: 'Simply call us at (833) 404-3389 or use our contact form. We\'ll discuss your service needs and help you understand available options. There\'s no obligation.',
+        question: 'How do I get started with IQ Connects?',
+        answer: 'Simply call us at (484) 763-4162 or use our contact form. We\'ll discuss your service needs and help you understand available options. There\'s no obligation.',
       },
       {
         question: 'How much does your assistance cost?',
@@ -100,7 +100,7 @@ export default function FAQ() {
             </p>
             <div className="bg-white/10 backdrop-blur-sm border-2 border-white/30 rounded-xl p-4 max-w-2xl mx-auto">
               <p className="text-white font-semibold text-sm">
-                ⚠️ Digi Mercury is an independent assistance provider, not affiliated with any service providers.
+                ⚠️ IQ Connects is an independent assistance provider, not affiliated with any service providers.
               </p>
             </div>
           </div>

@@ -34,7 +34,7 @@ export function PrivacyPolicy() {
     <LegalPage title="Privacy Policy" lastUpdated="January 1, 2026">
       <div className="space-y-6 text-muted-foreground">
         <p>
-          Digi Mercury ("we," "our," or "us") is committed to protecting your privacy. 
+          IQ Connects ("we," "our," or "us") is committed to protecting your privacy. 
           This Privacy Policy explains how we collect, use, disclose, and safeguard your 
           information when you visit our website or use our services.
         </p>
@@ -66,9 +66,9 @@ export function PrivacyPolicy() {
         <p>
           If you have questions about this Privacy Policy, please contact us at:
           <br />
-          Email: privacy@digimercury.com
+          Email: privacy@iqconnects.com
           <br />
-          Phone: 1-800-555-FAST
+          Phone: (484) 763-4162
         </p>
       </div>
     </LegalPage>
@@ -80,13 +80,13 @@ export function Terms() {
     <LegalPage title="Terms & Conditions" lastUpdated="January 1, 2026">
       <div className="space-y-6 text-muted-foreground">
         <p>
-          Welcome to Digi Mercury. By accessing or using our website and services, 
+          Welcome to IQ Connects. By accessing or using our website and services, 
           you agree to be bound by these Terms and Conditions.
         </p>
 
         <h2 className="text-xl font-bold text-foreground">Services</h2>
         <p>
-          Digi Mercury acts as an independent authorized dealer for various internet, 
+          IQ Connects acts as an independent authorized dealer for various internet, 
           TV, and phone service providers. We facilitate connections between customers 
           and service providers but are not the service provider ourselves.
         </p>
@@ -100,7 +100,7 @@ export function Terms() {
 
         <h2 className="text-xl font-bold text-foreground">Limitation of Liability</h2>
         <p>
-          Digi Mercury shall not be liable for any indirect, incidental, special, 
+          IQ Connects shall not be liable for any indirect, incidental, special, 
           consequential, or punitive damages resulting from your use of our services.
         </p>
 
@@ -119,7 +119,7 @@ export function AdvertisingDisclosure() {
     <LegalPage title="Advertising Disclosure" lastUpdated="January 1, 2026">
       <div className="space-y-6 text-muted-foreground">
         <p>
-          Digi Mercury is an independent authorized dealer and marketing affiliate. 
+          IQ Connects is an independent authorized dealer and marketing affiliate. 
           We may receive compensation from service providers when you sign up through 
           our website or phone lines.
         </p>
@@ -141,7 +141,7 @@ export function AdvertisingDisclosure() {
         <h2 className="text-xl font-bold text-foreground">Trademarks</h2>
         <p>
           All trademarks, logos, and brand names displayed on this website are the 
-          property of their respective owners. Digi Mercury is not affiliated with 
+          property of their respective owners. IQ Connects is not affiliated with 
           or endorsed by these companies unless otherwise stated.
         </p>
       </div>
@@ -160,7 +160,7 @@ export function DoNotSell() {
 
         <h2 className="text-xl font-bold text-foreground">Our Practice</h2>
         <p>
-          Digi Mercury does not sell your personal information in the traditional sense. 
+          IQ Connects does not sell your personal information in the traditional sense. 
           However, certain data sharing with our service provider partners may be 
           considered a "sale" under some state laws.
         </p>
@@ -180,9 +180,9 @@ export function DoNotSell() {
         <p>
           To exercise your right to opt out, please contact us at:
           <br />
-          Email: privacy@digimercury.com
+          Email: privacy@iqconnects.com
           <br />
-          Phone: 1-800-555-FAST
+          Phone: (484) 763-4162
         </p>
       </div>
     </LegalPage>
@@ -195,7 +195,7 @@ export function Disclaimer() {
       <div className="space-y-6 text-muted-foreground">
         <h2 className="text-xl font-bold text-foreground">Independent Dealer Status</h2>
         <p>
-          Digi Mercury is an <strong>independent authorized dealer</strong> and 
+          IQ Connects is an <strong>independent authorized dealer</strong> and 
           is not the service provider. We help connect customers with internet, 
           TV, and phone services but do not directly provide these services ourselves.
         </p>
@@ -229,7 +229,7 @@ export function CookiePolicy() {
     <LegalPage title="Cookie Policy" lastUpdated="January 1, 2026">
       <div className="space-y-6 text-muted-foreground">
         <p>
-          This Cookie Policy explains how Digi Mercury uses cookies and similar 
+          This Cookie Policy explains how IQ Connects uses cookies and similar 
           technologies to recognize you when you visit our website.
         </p>
 
@@ -257,7 +257,7 @@ export function CookiePolicy() {
 
         <h2 className="text-xl font-bold text-foreground">Contact Us</h2>
         <p>
-          For questions about our use of cookies, contact us at privacy@digimercury.com.
+          For questions about our use of cookies, contact us at privacy@iqconnects.com.
         </p>
       </div>
     </LegalPage>

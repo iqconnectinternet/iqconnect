@@ -267,10 +267,10 @@ export default function SpeedTest() {
                           <Button 
                             variant="cta" 
                             size="lg"
-                            onClick={() => window.location.href = 'tel:+18334043389'}
+                            onClick={() => window.location.href = 'tel:+14847634162'}
                           >
                             <Phone className="w-5 h-5" />
-                            Call Now: (833) 404-3389
+                            Call Now: (484) 763-4162
                           </Button>
                           <Button
                             variant="outline"
@@ -361,10 +361,10 @@ export default function SpeedTest() {
               <Button 
                 variant="cta" 
                 size="lg"
-                onClick={() => window.location.href = 'tel:+18334043389'}
+                onClick={() => window.location.href = 'tel:+14847634162'}
               >
                 <Phone className="w-5 h-5" />
-                Call Now: (833) 404-3389
+                Call Now: (484) 763-4162
               </Button>
             </AnimateOnScroll>
           </div>

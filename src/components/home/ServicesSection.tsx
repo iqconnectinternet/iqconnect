@@ -33,7 +33,7 @@ export default function ServicesSection() {
               What We <span className="text-accent">Do</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              At Digi Mercury, we help users navigate internet and cable service options through independent guidance and informational support.
+              At IQ Connects, we help users navigate internet and cable service options through independent guidance and informational support.
             </p>
           </div>
         </AnimateOnScroll>

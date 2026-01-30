@@ -32,11 +32,11 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <img src={logoSvg} alt="Digi Mercury Logo" className="w-10 h-10" />
-              <span className="font-display text-2xl font-bold">Digi Mercury</span>
+              <img src={logoSvg} alt="IQ Connects Logo" className="w-10 h-10" />
+              <span className="font-display text-2xl font-bold">IQ Connects</span>
             </Link>
             <p className="text-primary-foreground/80 mb-4 max-w-md">
-              <strong>Digi Mercury</strong> is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider.
+              <strong>IQ Connects</strong> is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider.
             </p>
             <p className="text-primary-foreground/70 text-sm mb-6 max-w-md">
               We provide general guidance and informational support only. We do not sell internet or cable services.
@@ -44,11 +44,11 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-accent" />
-                <a href="tel:+18334043389" className="hover:text-accent transition-colors">(833) 404-3389</a>
+                <a href="tel:+14847634162" className="hover:text-accent transition-colors">(484) 763-4162</a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-accent" />
-                <a href="mailto:help@digimercury.com" className="hover:text-accent transition-colors">help@digimercury.com</a>
+                <a href="mailto:help@iqconnects.com" className="hover:text-accent transition-colors">help@iqconnects.com</a>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="w-5 h-5 text-accent" />
@@ -108,23 +108,6 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-
-        {/* Social Links */}
-        <div className="flex items-center gap-4 mt-10 pt-8 border-t border-primary-foreground/20">
-          <span className="font-semibold">Follow Us:</span>
-          <a href="#" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-accent transition-colors">
-            <Facebook className="w-5 h-5" />
-          </a>
-          <a href="#" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-accent transition-colors">
-            <Twitter className="w-5 h-5" />
-          </a>
-          <a href="#" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-accent transition-colors">
-            <Instagram className="w-5 h-5" />
-          </a>
-          <a href="#" className="p-2 rounded-full bg-primary-foreground/10 hover:bg-accent transition-colors">
-            <Youtube className="w-5 h-5" />
-          </a>
-        </div>
       </div>
 
       {/* Bottom Bar */}
@@ -135,7 +118,7 @@ export default function Footer() {
             <div className="bg-accent/10 border-2 border-accent/30 rounded-xl p-6">
               <p className="font-bold text-accent text-lg mb-2">⚠️ DISCLAIMER</p>
               <p className="text-primary-foreground font-semibold mb-3">
-                <strong>Digi Mercury is an independent third-party service assistance provider.</strong> We are not affiliated with, authorized by, or endorsed by any internet, broadband, or cable TV service provider.
+                <strong>IQ Connects is an independent third-party service assistance provider.</strong> We are not affiliated with, authorized by, or endorsed by any internet, broadband, or cable TV service provider.
               </p>
               <p className="text-primary-foreground/80">
                 Brand names, if mentioned, are used strictly for informational purposes only. We do not provide internet or cable services directly, nor do we represent or partner with any service providers.
@@ -145,8 +128,8 @@ export default function Footer() {
             {/* Copyright and Legal */}
             <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-primary-foreground/60">
               <div>
-                <p>© 2026 Digi Mercury. All rights reserved.</p>
-                <p className="mt-1">Legal Business Name: Digi Mercury LLC</p>
+                <p>© 2026 IQ Connects. All rights reserved.</p>
+                <p className="mt-1">Legal Business Name: IQ Connects</p>
               </div>
               <p className="text-center md:text-right">
                 All trademarks, logos, and service marks are the property of their respective owners.

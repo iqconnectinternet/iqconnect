@@ -43,7 +43,7 @@ export default function About() {
           <div className="relative container-isp text-center">
             <AnimateOnScroll variant="fadeUp">
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6">
-                About Digi Mercury
+                About IQ Connects
               </h1>
               <p className="text-xl text-white/90 max-w-2xl mx-auto">
                 An independent third-party service assistance provider offering general guidance for internet, TV, and home services. Launched in 2026, we are not affiliated with any provider.
@@ -64,7 +64,7 @@ export default function About() {
                   Independent <span className="text-accent">Service Assistance</span>
                 </h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  <strong>Digi Mercury</strong> is an independent third-party service assistance provider offering general guidance related to internet, broadband, Wi-Fi, and cable TV services.
+                  <strong>IQ Connects</strong> is an independent third-party service assistance provider offering general guidance related to internet, broadband, Wi-Fi, and cable TV services.
                 </p>
                 <p className="text-lg text-muted-foreground mb-6">
                   We assist users by providing informational support, helping them understand service options, and offering general guidance on common connectivity-related concerns.
@@ -74,7 +74,7 @@ export default function About() {
                 </p>
                 <div className="bg-accent/5 border-2 border-accent/20 rounded-xl p-6">
                   <p className="font-semibold text-foreground">
-                    ⚠️ <strong>Important:</strong> Digi Mercury is not an ISP. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider.
+                    ⚠️ <strong>Important:</strong> IQ Connects is not an ISP. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider.
                   </p>
                 </div>
               </AnimateOnScroll>
@@ -157,7 +157,7 @@ export default function About() {
                 ⚠️ Important Disclosure
               </h3>
               <p className="text-muted-foreground mb-4">
-                <strong>Digi Mercury is an independent third-party service assistance provider.</strong> We are 
+                <strong>IQ Connects is an independent third-party service assistance provider.</strong> We are 
                 <strong> not affiliated with, authorized by, or endorsed by any internet, broadband, or cable TV service provider</strong>. We do not provide internet, TV, or home services directly.
               </p>
               <p className="text-muted-foreground">

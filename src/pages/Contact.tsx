@@ -28,7 +28,7 @@ export default function Contact() {
           <div className="container-isp text-center">
             <MessageCircle className="w-16 h-16 mx-auto mb-6 text-accent" />
             <h1 className="font-display text-4xl md:text-5xl font-extrabold mb-6">
-              Contact Digi Mercury
+              Contact IQ Connects
             </h1>
             <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto mb-4">
               Have questions about our informational assistance services? Our independent support team is here to help.
@@ -51,7 +51,7 @@ export default function Contact() {
                   Contact Our Team
                 </h2>
                 <p className="text-muted-foreground mb-8">
-                  <strong>Legal Business Name:</strong> Digi Mercury LLC
+                  <strong>Legal Business Name:</strong> IQ Connects
                 </p>
 
                 <div className="space-y-6">
@@ -61,7 +61,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Call Us</h3>
-                      <a href="tel:+18334043389" className="text-2xl font-bold text-accent hover:underline">(833) 404-3389</a>
+                      <a href="tel:+14847634162" className="text-2xl font-bold text-accent hover:underline">(484) 763-4162</a>
                       <p className="text-sm text-muted-foreground">Informational Assistance & General Inquiries</p>
                     </div>
                   </div>
@@ -72,7 +72,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-foreground mb-1">Email Us</h3>
-                      <a href="mailto:help@digimercury.com" className="text-lg text-foreground hover:text-accent hover:underline">help@digimercury.com</a>
+                      <a href="mailto:help@iqconnects.com" className="text-lg text-foreground hover:text-accent hover:underline">help@iqconnects.com</a>
                       <p className="text-sm text-muted-foreground">We reply within 24 hours</p>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ export default function Contact() {
                 </h2>
                 <div className="bg-accent/10 border-2 border-accent/30 rounded-xl p-4 mb-6">
                   <p className="text-sm font-semibold text-foreground">
-                    <strong>⚠️ Important:</strong> Digi Mercury is an independent platform. We are not affiliated with any service provider. We provide informational support and guidance only.
+                    <strong>⚠️ Important:</strong> IQ Connects is an independent platform. We are not affiliated with any service provider. We provide informational support and guidance only.
                   </p>
                 </div>
                 <form onSubmit={handleSubmit} className="space-y-4">

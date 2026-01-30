@@ -21,7 +21,7 @@ export default function FinalCTASection() {
         </AnimateOnScroll>
         <AnimateOnScroll variant="fadeUp" delay={0.1}>
           <p className="text-xl text-primary-foreground/90 max-w-2xl mx-auto mb-10">
-            Call Digi Mercury today for independent, unbiased guidance on internet and cable services in your area. Our advisors are ready to help.
+            Call IQ Connects today for independent, unbiased guidance on internet and cable services in your area. Our advisors are ready to help.
           </p>
         </AnimateOnScroll>
 
@@ -29,14 +29,14 @@ export default function FinalCTASection() {
           <div className="flex flex-wrap gap-4 justify-center">
             <Button 
               variant="hero"
-              onClick={() => window.location.href = 'tel:+18334043389'}
+              onClick={() => window.location.href = 'tel:+14847634162'}
             >
               <Phone className="w-5 h-5" />
-              Call Now: (833) 404-3389
+              Call Now: (484) 763-4162
             </Button>
             <Button 
               variant="hero-outline"
-              onClick={() => window.location.href = 'tel:+18334043389'}
+              onClick={() => window.location.href = 'tel:+14847634162'}
             >
               Get Expert Guidance
               <ArrowRight className="w-5 h-5" />
@@ -47,7 +47,7 @@ export default function FinalCTASection() {
         <AnimateOnScroll variant="fadeIn" delay={0.3}>
           <div className="mt-12 pt-8 border-t border-primary-foreground/20">
             <p className="text-primary-foreground/70 text-sm">
-              * Digi Mercury is an independent third-party service assistance provider. Not affiliated with any ISP or service provider. We provide guidance only, not direct service.
+              * IQ Connects is an independent third-party service assistance provider. Not affiliated with any ISP or service provider. We provide guidance only, not direct service.
             </p>
           </div>
         </AnimateOnScroll>

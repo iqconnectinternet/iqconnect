@@ -7,7 +7,7 @@ const testimonials = [
     name: 'Sarah Johnson',
     location: 'Austin, TX',
     rating: 5,
-    quote: 'Digi Mercury helped me understand all my internet options. The guidance was clear and unbiased. I felt confident making my decision!',
+    quote: 'IQ Connects helped me understand all my internet options. The guidance was clear and unbiased. I felt confident making my decision!',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face',
   },
   {

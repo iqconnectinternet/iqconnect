@@ -56,10 +56,10 @@ export default function Internet() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <Button 
                   variant="hero"
-                  onClick={() => window.location.href = 'tel:+18334043389'}
+                  onClick={() => window.location.href = 'tel:+14847634162'}
                 >
                   <Phone className="w-5 h-5" />
-                  Call Now: (833) 404-3389
+                  Call Now: (484) 763-4162
                 </Button>
               </div>
             </AnimateOnScroll>
@@ -115,7 +115,7 @@ export default function Internet() {
                       The speed categories and information shown above are examples to help you understand what different internet speeds can support. Actual speeds, availability, and pricing vary by provider and location.
                     </p>
                     <p className="text-sm text-muted-foreground font-semibold">
-                      <strong>Digi Mercury does not sell internet services.</strong> We provide guidance to help you understand your options before contacting providers directly.
+                      <strong>IQ Connects does not sell internet services.</strong> We provide guidance to help you understand your options before contacting providers directly.
                     </p>
                   </div>
                 </div>
@@ -159,10 +159,10 @@ export default function Internet() {
                   variant="cta" 
                   size="lg" 
                   className="mt-8"
-                  onClick={() => window.location.href = 'tel:+18334043389'}
+                  onClick={() => window.location.href = 'tel:+14847634162'}
                 >
                   <Phone className="w-5 h-5" />
-                  Call Now: (833) 404-3389
+                  Call Now: (484) 763-4162
                 </Button>
                 <p className="mt-4 text-sm text-muted-foreground">
                   Independent guidance • No sales • Informational support only

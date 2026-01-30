@@ -56,7 +56,7 @@ export default function Header() {
                   className="flex items-center gap-2 text-white"
                 >
                   <Phone className="w-4 h-4" />
-                  <span className="font-bold text-sm">Call: (833) 404-3389</span>
+                  <span className="font-bold text-sm">Call: (484) 763-4162</span>
                 </motion.div>
                 <div className="hidden md:flex items-center gap-2 text-white">
                   <span className="text-sm font-semibold">🎉 Get Expert Assistance Today</span>
@@ -77,11 +77,11 @@ export default function Header() {
               transition={{ duration: 0.3 }}
               className="relative w-11 h-11"
             >
-              <img src={logoSvg} alt="Digi Mercury Logo" className="w-full h-full" />
+              <img src={logoSvg} alt="IQ Connects Logo" className="w-full h-full" />
             </motion.div>
             <div className="flex flex-col">
               <span className="font-display text-xl md:text-2xl font-extrabold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent leading-none">
-                Digi Mercury
+                IQ Connects
               </span>
               <span className="text-[10px] text-muted-foreground font-medium tracking-wider">
                 SERVICE ASSISTANCE
@@ -134,7 +134,7 @@ export default function Header() {
                 variant="cta"
                 size="lg"
                 className="font-bold shadow-lg shadow-accent/20 hover:shadow-accent/40 transition-shadow"
-                onClick={() => window.location.href = 'tel:+18334043389'}
+                onClick={() => window.location.href = 'tel:+14847634162'}
               >
                 <Phone className="w-4 h-4" />
                 Call Now
@@ -221,11 +221,11 @@ export default function Header() {
                     className="w-full font-bold shadow-lg"
                     onClick={() => {
                       setIsMenuOpen(false);
-                      window.location.href = 'tel:+18334043389';
+                      window.location.href = 'tel:+14847634162';
                     }}
                   >
                     <Phone className="w-4 h-4" />
-                    Call Now: (833) 404-3389
+                    Call Now: (484) 763-4162
                   </Button>
                 </motion.div>
               </div>

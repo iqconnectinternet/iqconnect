@@ -119,7 +119,7 @@ export default function HeroSection() {
                 transition={{ duration: 0.7, delay: 0.25 }}
                 className="text-sm md:text-base text-primary-foreground/70 mb-8 max-w-xl font-medium bg-primary-foreground/10 backdrop-blur-sm p-4 rounded-lg border border-primary-foreground/20"
               >
-                <strong className="text-accent">Digi Mercury</strong> is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider.
+                <strong className="text-accent">IQ Connects</strong> is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, cable, or telecom service provider.
               </motion.p>
 
               {/* Feature Pills */}
@@ -162,17 +162,17 @@ export default function HeroSection() {
                   <Button 
                     variant="hero" 
                     className="w-full sm:w-auto px-8 py-6 text-base font-bold shadow-lg shadow-accent/30"
-                    onClick={() => window.location.href = 'tel:+18334043389'}
+                    onClick={() => window.location.href = 'tel:+14847634162'}
                   >
                     <Phone className="w-5 h-5" />
-                    Call Now: (833) 404-3389
+                    Call Now: (484) 763-4162
                   </Button>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Button 
                     variant="hero-outline" 
                     className="w-full sm:w-auto px-8 py-6 text-base font-bold"
-                    onClick={() => window.location.href = 'tel:+18334043389'}
+                    onClick={() => window.location.href = 'tel:+14847634162'}
                   >
                     <Play className="w-5 h-5" />
                     Talk to a Third-Party Internet Advisor
@@ -281,10 +281,10 @@ export default function HeroSection() {
                       <Button 
                         variant="hero" 
                         className="w-full py-4 font-bold shadow-lg shadow-accent/30"
-                        onClick={() => window.location.href = 'tel:+18334043389'}
+                        onClick={() => window.location.href = 'tel:+14847634162'}
                       >
                         <Phone className="w-4 h-4" />
-                        Call Now: (833) 404-3389
+                        Call Now: (484) 763-4162
                       </Button>
                     </motion.div>
                     

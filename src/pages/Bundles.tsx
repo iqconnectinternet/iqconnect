@@ -50,10 +50,10 @@ export default function Bundles() {
               </div>
               <Button 
                 variant="hero"
-                onClick={() => window.location.href = 'tel:+18334043389'}
+                onClick={() => window.location.href = 'tel:+14847634162'}
               >
                 <Phone className="w-5 h-5" />
-                Call Now: (833) 404-3389
+                Call Now: (484) 763-4162
               </Button>
             </AnimateOnScroll>
           </div>
@@ -105,7 +105,7 @@ export default function Bundles() {
                       We offer informational support to help you understand bundled service options. Our guidance is educational and designed to help you make informed decisions when contacting service providers directly.
                     </p>
                     <p className="text-sm text-muted-foreground font-semibold">
-                      <strong>Note:</strong> Digi Mercury does not sell internet, TV, or phone services. All service enrollments must be completed directly with the provider of your choice.
+                      <strong>Note:</strong> IQ Connects does not sell internet, TV, or phone services. All service enrollments must be completed directly with the provider of your choice.
                     </p>
                   </div>
                 </div>
@@ -128,10 +128,10 @@ export default function Bundles() {
                 <Button 
                   variant="cta" 
                   size="lg"
-                  onClick={() => window.location.href = 'tel:+18334043389'}
+                  onClick={() => window.location.href = 'tel:+14847634162'}
                 >
                   <Phone className="w-5 h-5" />
-                  Call Now: (833) 404-3389
+                  Call Now: (484) 763-4162
                 </Button>
               </div>
               <p className="mt-4 text-sm text-muted-foreground">
