@@ -56,10 +56,10 @@ export default function Internet() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <Button 
                   variant="hero"
-                  onClick={() => window.location.href = 'tel:+14847634162'}
+                  onClick={() => window.location.href = 'tel:+18445250789'}
                 >
                   <Phone className="w-5 h-5" />
-                  Call Now: (484) 763-4162
+                  Call Now: (844) 525-0789
                 </Button>
               </div>
             </AnimateOnScroll>
@@ -159,10 +159,10 @@ export default function Internet() {
                   variant="cta" 
                   size="lg" 
                   className="mt-8"
-                  onClick={() => window.location.href = 'tel:+14847634162'}
+                  onClick={() => window.location.href = 'tel:+18445250789'}
                 >
                   <Phone className="w-5 h-5" />
-                  Call Now: (484) 763-4162
+                  Call Now: (844) 525-0789
                 </Button>
                 <p className="mt-4 text-sm text-muted-foreground">
                   Independent guidance • No sales • Informational support only

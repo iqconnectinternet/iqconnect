@@ -68,7 +68,7 @@ export function PrivacyPolicy() {
           <br />
           Email: privacy@iqconnects.com
           <br />
-          Phone: (484) 763-4162
+          Phone: (844) 525-0789
         </p>
       </div>
     </LegalPage>
@@ -182,7 +182,7 @@ export function DoNotSell() {
           <br />
           Email: privacy@iqconnects.com
           <br />
-          Phone: (484) 763-4162
+          Phone: (844) 525-0789
         </p>
       </div>
     </LegalPage>

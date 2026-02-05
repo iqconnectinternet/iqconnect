@@ -28,14 +28,14 @@ export default function FeatureBanner() {
           <div className="flex flex-wrap gap-4 justify-center">
             <Button 
               variant="hero"
-              onClick={() => window.location.href = 'tel:+14847634162'}
+              onClick={() => window.location.href = 'tel:+18445250789'}
             >
               <Phone className="w-5 h-5" />
-              Call Now: (484) 763-4162
+              Call Now: (844) 525-0789
             </Button>
             <Button 
               variant="hero-outline"
-              onClick={() => window.location.href = 'tel:+14847634162'}
+              onClick={() => window.location.href = 'tel:+18445250789'}
             >
               Get Guidance Today
             </Button>

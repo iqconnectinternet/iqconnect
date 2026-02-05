@@ -43,14 +43,14 @@ export default function TVStreaming() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <Button 
                   variant="hero"
-                  onClick={() => window.location.href = 'tel:+14847634162'}
+                  onClick={() => window.location.href = 'tel:+18445250789'}
                 >
                   <Phone className="w-5 h-5" />
-                  Call Now: (484) 763-4162
+                  Call Now: (844) 525-0789
                 </Button>
                 <Button 
                   variant="hero-outline"
-                  onClick={() => window.location.href = 'tel:+14847634162'}
+                  onClick={() => window.location.href = 'tel:+18445250789'}
                 >
                   <Play className="w-5 h-5" />
                   Get Expert Help
@@ -88,10 +88,10 @@ export default function TVStreaming() {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => window.location.href = 'tel:+14847634162'}
+                onClick={() => window.location.href = 'tel:+18445250789'}
               >
                 <Phone className="w-5 h-5" />
-                Call Now: (484) 763-4162
+                Call Now: (844) 525-0789
               </Button>
             </div>
           </div>
@@ -132,10 +132,10 @@ export default function TVStreaming() {
                 <Button 
                   variant="cta" 
                   size="lg"
-                  onClick={() => window.location.href = 'tel:+14847634162'}
+                  onClick={() => window.location.href = 'tel:+18445250789'}
                 >
                   <Phone className="w-5 h-5" />
-                  Call Now: (484) 763-4162
+                  Call Now: (844) 525-0789
                 </Button>
               </AnimateOnScroll>
               <AnimateOnScroll variant="slideRight">

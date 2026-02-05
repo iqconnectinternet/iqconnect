@@ -115,16 +115,16 @@ export default function Coverage() {
                       variant="cta" 
                       size="lg" 
                       className="flex-1"
-                      onClick={() => window.location.href = 'tel:+14847634162'}
+                      onClick={() => window.location.href = 'tel:+18445250789'}
                     >
                       <Phone className="w-5 h-5" />
-                      Call Now: (484) 763-4162
+                      Call Now: (844) 525-0789
                     </Button>
                     <Button 
                       variant="outline" 
                       size="lg" 
                       className="flex-1"
-                      onClick={() => window.location.href = 'tel:+14847634162'}
+                      onClick={() => window.location.href = 'tel:+18445250789'}
                     >
                       Get Expert Guidance
                     </Button>

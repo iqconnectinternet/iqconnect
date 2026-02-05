@@ -13,12 +13,12 @@ const quickReplies = [
 ];
 
 const botResponses: { [key: string]: string } = {
-  default: "Thanks for reaching out! For immediate assistance, please call us at (484) 763-4162 or email help@giftusinternet.com. Our team is ready to help you find the right service options.",
-  'internet assistance': "We'd be happy to help you understand internet service options! Our experts can guide you through speeds, providers, and plans. Call (484) 763-4162 to get started.",
-  'tv & streaming help': "Looking for TV and streaming guidance? We can help you compare channel lineups and streaming packages. Reach us at (484) 763-4162 for personalized assistance.",
-  'bundle guidance': "Interested in bundled services? We can explain various package combinations from different providers. Call (484) 763-4162 for expert guidance.",
-  'pricing information': "Our assistance fee is $29.99 one-time. This covers expert guidance to help you navigate service options. Provider charges are separate. Call (484) 763-4162 for details.",
-  'refund policy': "We offer a 7-15 day refund policy on our assistance services. See our Refund Policy page for full details, or call (484) 763-4162 with questions.",
+  default: "Thanks for reaching out! For immediate assistance, please call us at (844) 525-0789 or email help@giftusinternet.com. Our team is ready to help you find the right service options.",
+  'internet assistance': "We'd be happy to help you understand internet service options! Our experts can guide you through speeds, providers, and plans. Call (844) 525-0789 to get started.",
+  'tv & streaming help': "Looking for TV and streaming guidance? We can help you compare channel lineups and streaming packages. Reach us at (844) 525-0789 for personalized assistance.",
+  'bundle guidance': "Interested in bundled services? We can explain various package combinations from different providers. Call (844) 525-0789 for expert guidance.",
+  'pricing information': "Our assistance fee is $29.99 one-time. This covers expert guidance to help you navigate service options. Provider charges are separate. Call (844) 525-0789 for details.",
+  'refund policy': "We offer a 7-15 day refund policy on our assistance services. See our Refund Policy page for full details, or call (844) 525-0789 with questions.",
 };
 
 export default function Chatbot() {
@@ -173,7 +173,7 @@ export default function Chatbot() {
             <div className="border-t border-gray-200 p-3 bg-white">
               <div className="flex gap-2 mb-3">
                 <a
-                  href="tel:+14847634162"
+                  href="tel:+18445250789"
                   className="flex-1 flex items-center justify-center gap-2 bg-accent hover:bg-accent/90 text-white px-3 py-2 rounded-lg text-sm font-medium transition-colors"
                 >
                   <Phone className="w-4 h-4" />

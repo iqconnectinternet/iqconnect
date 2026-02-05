@@ -50,10 +50,10 @@ export default function Bundles() {
               </div>
               <Button 
                 variant="hero"
-                onClick={() => window.location.href = 'tel:+14847634162'}
+                onClick={() => window.location.href = 'tel:+18445250789'}
               >
                 <Phone className="w-5 h-5" />
-                Call Now: (484) 763-4162
+                Call Now: (844) 525-0789
               </Button>
             </AnimateOnScroll>
           </div>
@@ -128,10 +128,10 @@ export default function Bundles() {
                 <Button 
                   variant="cta" 
                   size="lg"
-                  onClick={() => window.location.href = 'tel:+14847634162'}
+                  onClick={() => window.location.href = 'tel:+18445250789'}
                 >
                   <Phone className="w-5 h-5" />
-                  Call Now: (484) 763-4162
+                  Call Now: (844) 525-0789
                 </Button>
               </div>
               <p className="mt-4 text-sm text-muted-foreground">

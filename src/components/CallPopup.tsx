@@ -26,7 +26,7 @@ export default function CallPopup() {
   };
 
   const handleCall = () => {
-    window.location.href = 'tel:+14847634162';
+    window.location.href = 'tel:+18445250789';
   };
 
   if (isDismissed) return null;
@@ -91,10 +91,10 @@ export default function CallPopup() {
                       Call Us Now
                     </p>
                     <a 
-                      href="tel:+14847634162"
+                      href="tel:+18445250789"
                       className="block text-center text-3xl font-bold text-accent hover:text-accent/80 transition-colors"
                     >
-                      (484) 763-4162
+                      (844) 525-0789
                     </a>
                   </div>
 

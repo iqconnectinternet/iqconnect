@@ -61,7 +61,7 @@ const faqCategories = [
     faqs: [
       {
         question: 'How do I get started with IQ Connects?',
-        answer: 'Simply call us at (484) 763-4162 or use our contact form. We\'ll discuss your service needs and help you understand available options. There\'s no obligation.',
+        answer: 'Simply call us at (844) 525-0789 or use our contact form. We\'ll discuss your service needs and help you understand available options. There\'s no obligation.',
       },
       {
         question: 'How much does your assistance cost?',

@@ -162,17 +162,17 @@ export default function HeroSection() {
                   <Button 
                     variant="hero" 
                     className="w-full sm:w-auto px-8 py-6 text-base font-bold shadow-lg shadow-accent/30"
-                    onClick={() => window.location.href = 'tel:+14847634162'}
+                    onClick={() => window.location.href = 'tel:+18445250789'}
                   >
                     <Phone className="w-5 h-5" />
-                    Call Now: (484) 763-4162
+                    Call Now: (844) 525-0789
                   </Button>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Button 
                     variant="hero-outline" 
                     className="w-full sm:w-auto px-8 py-6 text-base font-bold"
-                    onClick={() => window.location.href = 'tel:+14847634162'}
+                    onClick={() => window.location.href = 'tel:+18445250789'}
                   >
                     <Play className="w-5 h-5" />
                     Talk to a Third-Party Internet Advisor
@@ -281,10 +281,10 @@ export default function HeroSection() {
                       <Button 
                         variant="hero" 
                         className="w-full py-4 font-bold shadow-lg shadow-accent/30"
-                        onClick={() => window.location.href = 'tel:+14847634162'}
+                        onClick={() => window.location.href = 'tel:+18445250789'}
                       >
                         <Phone className="w-4 h-4" />
-                        Call Now: (484) 763-4162
+                        Call Now: (844) 525-0789
                       </Button>
                     </motion.div>
                     
